@@ -4,7 +4,7 @@ st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 st.title("AI Chatbot using Agents")
 st.write("Create and Interact with the AI Agents!")
 
-system_prompt=st.text_area("Define your AI Agent: (like "You are Stock researcher", "You are Captain America", height=70, placeholder="Type your system prompt here...")
+system_prompt=st.text_area("Define your AI Agent: (like "You are Stock researcher", "You are Captain America")", height=70, placeholder="Type your system prompt here...")
 
 MODEL_NAMES_GROQ = ["llama-3.3-70b-versatile", "lllama3-70b-8192","llama-3.1-8b-instant"]
 

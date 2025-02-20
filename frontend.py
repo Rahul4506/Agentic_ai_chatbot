@@ -58,7 +58,7 @@ footer = """
     .footer {
         position: fixed;
         bottom: 10px;
-        right: 20px;
+        left: 20px;
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
         padding: 8px 15px;
